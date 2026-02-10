@@ -8,29 +8,28 @@ repo_url: https://github.com/yourname/blog
 
 theme:
   name: material
-  language: en # 英文技术博客
+  language: en 
   font:
-    text: Merriweather # 衬线体，阅读长文/论文体验极佳
-    code: JetBrains Mono # 极客标配等宽字体
-  favicon: assets/favicon.png # 建议找个简单的 logo
+    text: Merriweather 
+    code: JetBrains Mono 
+  favicon: assets/favicon.png 
   icon:
     repo: fontawesome/brands/github
 
-  # 3. 功能特性
   features:
-    - navigation.instant # 单页应用体验，加载极快
-    - navigation.tracking # 侧边栏自动跟随滚动
-    - navigation.top # 回到顶部按钮
-    - navigation.indexes # 允许点击目录本身进入页面
-    - toc.follow # 目录自动高亮
-    - content.code.copy # 代码复制按钮
-    # - toc.integrate # 如果想要左侧极简，可以开启这个，把右侧目录并入左侧
+    - navigation.instant
+    - navigation.tracking 
+    - navigation.top
+    - navigation.indexes 
+    - toc.follow 
+    - content.code.copy 
+    # - toc.integrate 
 
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white # 顶部栏白色，更像文档
-      accent: deep purple # 链接颜色，类似学术链接
+      primary: white
+      accent: deep purple 
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
