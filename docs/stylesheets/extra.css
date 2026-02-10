@@ -1,0 +1,23 @@
+/* 让内容区域更宽，适合展示宽大的架构图和公式 */
+.md-grid {
+  max-width: 1200px;
+}
+
+/* 让正文两端对齐，更有论文感 */
+.md-typeset {
+  text-align: justify;
+}
+
+/* 调整标题样式，更严肃 */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* 图片默认居中且有阴影，类似论文插图 */
+.md-typeset img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); Optional: 如果你喜欢阴影 */
+}
